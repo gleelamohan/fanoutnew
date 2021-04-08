@@ -3,11 +3,11 @@ exports.DEBUG = true;
 exports.ENVIRONMENT = 'production';
 
 
-exports.CALLBACK_URL = process.ENV.CALLBACKURL;
-exports.TOPIC = '/event/' + process.ENV.EVENTCHANNEL;
+exports.CALLBACK_URL = process.env.CALLBACKURL;
+exports.TOPIC = '/event/' + process.env.EVENTCHANNEL;
 exports.REPLAY_ID = -1;
 
-exports.CLIENT_ID = process.ENV.CLIENTID;
-exports.CLIENT_SECRET = process.ENV.CLIENTSECRET;
-exports.USERNAME = process.ENV.USERNAME;
-exports.PASSWORD = process.ENV.PASSWORD;
+exports.CLIENT_ID = process.env.CLIENTID;
+exports.CLIENT_SECRET = process.env.CLIENTSECRET;
+exports.USERNAME = process.env.USERNAME;
+exports.PASSWORD = process.env.PASSWORD;
